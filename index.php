@@ -11,26 +11,6 @@
 
 <header>
 
-    <nav class="navbar">
-
-        <div class="logo">
-            <h2>Université Gustave Eiffel</h2>
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Offre de stage</a></li>
-            <li><a href="#">Espace candidats</a></li>
-            <li><a href="#">Aide</a></li>
-            <li><a href="#">À propos</a></li>
-        </ul>
-
-        <a href="#" class="btn-login">
-            Connexion / Inscription
-        </a>    
-
-    </nav>
-
     <?php
 include("includes/db.php");
 include("includes/header.php");
@@ -89,38 +69,31 @@ include("includes/header.php");
 
     <div class="offres-container">
 
-        <?php
+     <?php
+$sql = "SELECT * FROM offre_stage ORDER BY date_publication DESC";
+$result = mysqli_query($conn, $sql);
 
-        $sql = "SELECT * FROM offres ORDER BY date_publication DESC";
-        $result = mysqli_query($conn, $sql);
-
-        while($row = mysqli_fetch_assoc($result)){
-
-        ?>
-
+while($row = mysqli_fetch_assoc($result)){
+?>
             <div class="offre-card">
 
-                <h3><?php echo $row['titre']; ?></h3>
+    <h3>
+        <?php echo $row['titre']; ?>
+    </h3>
 
-                <p class="entreprise">
-                    <?php echo $row['entreprise']; ?>
-                </p>
+    <p>
+        <?php echo $row['description']; ?>
+    </p>
 
-                <p>
-                    📍 <?php echo $row['localisation']; ?>
-                </p>
+    <a href="offre-detail.php?id=<?php echo $row['id_offre']; ?>">
+        Voir l'offre
+    </a>
 
-                <span class="categorie">
-                    <?php echo $row['categorie']; ?>
-                </span>
+</div>
 
-            </div>
-
-        <?php
-        }
-        ?>
-
-    </div>
+<?php
+}
+?>
 
 </section>
 
