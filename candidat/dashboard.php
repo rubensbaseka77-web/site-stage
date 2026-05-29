@@ -98,7 +98,11 @@ while($candidature = mysqli_fetch_assoc($result_candidatures)){
                     Déconnexion
                 </a>
             </li>
-
+<li>
+    <a href="profil.php">
+        Mon profil
+    </a>
+</li>
         </ul>
 
     </aside>
