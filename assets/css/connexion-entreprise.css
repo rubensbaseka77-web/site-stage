@@ -1,0 +1,93 @@
+.ce-page{
+    min-height:520px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px 0;
+}
+
+.ce-card{
+    width:480px;
+    background:white;
+    border:1px solid #111;
+    border-radius:22px;
+    padding:40px;
+}
+
+.ce-card h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.ce-card p{
+    color:#555;
+    margin-bottom:25px;
+}
+
+.ce-card label{
+    display:block;
+    font-weight:700;
+    margin:18px 0 8px;
+}
+
+.ce-card input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+.ce-card button{
+    width:100%;
+    margin-top:28px;
+    padding:15px;
+    background:#2451ff;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-weight:700;
+}
+
+.ce-link{
+    text-align:center;
+    margin-top:22px;
+}
+
+.ce-link a{
+    color:#2451ff;
+    font-weight:700;
+}
+.ce-separator{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:30px 0 20px;
+}
+
+.ce-separator span{
+    flex:1;
+    height:1px;
+    background:#ddd;
+}
+
+.ce-separator p{
+    margin:0;
+    color:#888;
+    font-size:14px;
+}
+
+.ce-student{
+    text-align:center;
+    color:#666;
+    margin-top:10px;
+}
+
+.ce-student a{
+    color:#2451ff;
+    font-weight:700;
+    text-decoration:none;
+}
+
+.ce-student a:hover{
+    text-decoration:underline;
+}

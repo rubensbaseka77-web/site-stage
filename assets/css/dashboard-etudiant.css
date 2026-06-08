@@ -1,0 +1,180 @@
+.ed-page{
+    width:1180px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:45px;
+    padding:55px 0 90px;
+}
+
+.ed-sidebar{
+    border-right:1px solid #111;
+    padding:35px 25px;
+    min-height:650px;
+}
+
+.ed-sidebar h2{
+    font-size:24px;
+    margin:0 0 10px;
+}
+
+.ed-sidebar p{
+    font-size:13px;
+    margin:0 0 35px;
+    color:#555;
+}
+
+.ed-sidebar a{
+    display:block;
+    color:#111;
+    font-weight:700;
+    padding:15px 18px;
+    border-radius:10px;
+    margin-bottom:16px;
+}
+
+.ed-sidebar a.active{
+    background:#dceaff;
+    color:#2451ff;
+}
+
+.ed-content{
+    padding-top:10px;
+}
+
+.ed-content h1{
+    font-size:44px;
+    margin:0 0 8px;
+}
+
+.ed-subtitle{
+    color:#555;
+    margin-bottom:32px;
+}
+
+.ed-stats{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:18px;
+    margin-bottom:45px;
+}
+
+.ed-stat{
+    background:white;
+    border:1px solid #111;
+    border-radius:18px;
+    padding:26px;
+    height:130px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.04);
+}
+
+.ed-stat h2{
+    font-size:36px;
+    margin:0 0 18px;
+}
+
+.ed-stat p{
+    margin:0;
+    font-weight:700;
+}
+
+.ed-section{
+    margin-top:45px;
+}
+
+.ed-section-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:18px;
+}
+
+.ed-section-header h2{
+    font-size:28px;
+    margin:0;
+}
+
+.ed-section-header a{
+    color:#2451ff;
+    font-weight:700;
+}
+
+.ed-offres{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:18px;
+}
+
+.ed-offre-card{
+    background:white;
+    border:1px solid #111;
+    border-radius:18px;
+    padding:24px;
+    min-height:170px;
+    transition:.2s;
+}
+
+.ed-offre-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 14px 30px rgba(0,0,0,0.08);
+}
+
+.ed-offre-card h3{
+    font-size:20px;
+    margin:0 0 12px;
+}
+
+.ed-offre-card p{
+    color:#555;
+    font-size:14px;
+    line-height:1.45;
+}
+
+.ed-offre-card a{
+    display:inline-block;
+    margin-top:14px;
+    color:#2451ff;
+    font-weight:700;
+}
+
+.ed-candidatures{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.ed-candidature-row{
+    display:grid;
+    grid-template-columns:1fr 130px;
+    align-items:center;
+    background:white;
+    border:1px solid #111;
+    border-radius:18px;
+    padding:20px 24px;
+    transition:.2s;
+}
+
+.ed-candidature-row:hover{
+    transform:translateY(-3px);
+    box-shadow:0 12px 25px rgba(0,0,0,0.06);
+}
+
+.ed-candidature-row h3{
+    font-size:19px;
+    margin:0 0 6px;
+}
+
+.ed-candidature-row p{
+    margin:0;
+    color:#555;
+    font-size:14px;
+}
+
+.ed-status{
+    justify-self:end;
+    background:#dceaff;
+    color:#2451ff;
+    padding:9px 15px;
+    border-radius:20px;
+    font-weight:700;
+}

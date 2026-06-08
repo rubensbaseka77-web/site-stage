@@ -1,0 +1,145 @@
+.mo-page{
+    width:1180px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:55px;
+    padding:55px 0 90px;
+    background:white;
+}
+
+.mo-sidebar{
+    border-right:1px solid #111;
+    padding:45px 25px;
+    min-height:650px;
+}
+
+.mo-sidebar h2{
+    font-size:24px;
+    margin:0 0 10px;
+}
+
+.mo-sidebar p{
+    font-size:13px;
+    margin:0 0 35px;
+}
+
+.mo-sidebar a{
+    display:block;
+    text-decoration:none;
+    color:#111;
+    font-weight:700;
+    padding:15px 18px;
+    border-radius:8px;
+    margin-bottom:24px;
+}
+
+.mo-sidebar a.active{
+    background:#dceaff;
+    color:#2451ff;
+}
+
+.mo-content h1{
+    font-size:44px;
+    margin:0 0 8px;
+}
+
+.mo-subtitle{
+    font-size:14px;
+    color:#555;
+    margin:0 0 35px;
+}
+
+.mo-stats{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:22px;
+    margin-bottom:35px;
+}
+
+.mo-stat{
+    background:#fff;
+    border:1px solid #111;
+    border-radius:14px;
+    padding:28px;
+    height:130px;
+}
+
+.mo-stat h2{
+    font-size:34px;
+    margin:0 0 18px;
+}
+
+.mo-stat p{
+    margin:0;
+    font-weight:700;
+}
+
+.mo-filter{
+    width:250px;
+    margin-left:auto;
+    border:1px solid #111;
+    border-radius:12px;
+    padding:16px;
+    margin-bottom:25px;
+}
+
+.mo-tabs{
+    display:flex;
+    gap:22px;
+    margin-bottom:14px;
+}
+
+.mo-tabs span{
+    font-size:13px;
+    padding:7px 16px;
+    border-radius:20px;
+}
+
+.mo-tabs .active{
+    background:#dceaff;
+    color:#2451ff;
+}
+
+.mo-list{
+    width:100%;
+}
+
+.mo-row{
+    display:grid;
+    grid-template-columns:1fr 90px 70px;
+    align-items:center;
+    gap:18px;
+    background:#fff;
+    border:1px solid #111;
+    border-radius:14px;
+    padding:18px 22px;
+    margin-bottom:12px;
+    min-height:75px;
+}
+
+.mo-row h3{
+    margin:0 0 6px;
+    font-size:17px;
+}
+
+.mo-row p{
+    margin:0;
+    font-size:13px;
+    color:#555;
+}
+
+.mo-status{
+    color:#14a038;
+    font-weight:700;
+}
+
+.mo-btn{
+    background:#2451ff;
+    color:white;
+    text-decoration:none;
+    padding:10px 16px;
+    border-radius:8px;
+    font-weight:700;
+    text-align:center;
+}

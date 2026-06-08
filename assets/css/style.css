@@ -1,0 +1,2593 @@
+/* NAVBAR */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:#ffffff;
+    border-bottom:2px solid #1138c8;
+}
+
+.logo h2{
+    font-size:24px;
+    color:#1138c8;
+    margin:0;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:30px;
+    margin:0;
+    padding:0;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#222;
+    font-weight:600;
+}
+
+.nav-links a:hover{
+    color:#1138c8;
+}
+
+.btn-login{
+    background:#1138c8;
+    color:white;
+    padding:12px 20px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.btn-login:hover{
+    background:#0d2fa8;
+}
+.offres-page,
+.detail-page{
+    max-width:1100px;
+    margin:0 auto;
+    padding:50px 20px;
+}
+
+.offres-header h1,
+.detail-page h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.search-bar{
+    margin:40px 0;
+    padding:20px;
+    border:1px solid #999;
+    border-radius:8px;
+    display:flex;
+    gap:20px;
+}
+
+.search-bar input,
+.search-bar select{
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    flex:1;
+}
+
+.search-bar button,
+.postuler-btn{
+    background:#1138c8;
+    color:white;
+    padding:14px 35px;
+    border:none;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.filter-line{
+    display:flex;
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.offer-card{
+    background:#fff;
+    border:1px solid #777;
+    border-radius:8px;
+    padding:30px;
+    margin-bottom:45px;
+    display:flex;
+    align-items:center;
+    gap:30px;
+    position:relative;
+}
+.detail-logo{
+    width:110px;
+    height:110px;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:45px;
+    font-weight:bold;
+}
+
+.offer-content{
+    flex:1;
+}
+
+.category{
+    background:#dceeff;
+    color:#0066ff;
+    padding:6px 14px;
+    border-radius:15px;
+    font-size:13px;
+}
+
+.offer-content h2{
+    margin:15px 0;
+}
+
+.offer-meta{
+    display:flex;
+    gap:25px;
+    font-size:14px;
+    margin-bottom:15px;
+}
+
+.tags{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
+
+.tags span{
+    background:#d0d0d0;
+    padding:8px 22px;
+    border-radius:8px;
+    font-size:13px;
+}
+
+.offer-link{
+    position:absolute;
+    right:30px;
+    bottom:25px;
+}
+
+.back-link{
+    display:inline-block;
+    margin-bottom:40px;
+    color:#111;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.detail-hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:70px;
+}
+
+.detail-layout{
+    display:grid;
+    grid-template-columns: 1fr 300px;
+    gap:50px;
+}
+
+.mission-card,
+.info-card{
+    background:#eee;
+    border:1px solid #777;
+    border-radius:20px;
+    padding:30px;
+    margin-top:30px;
+}
+
+.mission-card h2{
+    margin-top:30px;
+}
+
+.detail-sidebar{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.save-btn{
+    padding:14px;
+    background:white;
+    border:1px solid #777;
+    cursor:pointer;
+}
+
+.info-card p{
+    margin:20px 0;
+}
+
+@media(max-width:768px){
+    .search-bar,
+    .offer-card,
+    .detail-hero{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .detail-layout{
+        grid-template-columns:1fr;
+    }
+}
+.offres-page{
+    max-width:1100px;
+    margin:0 auto;
+    padding:40px 20px;
+}
+
+.offres-list-section{
+    margin-top:40px;
+}
+
+.offres-cards{
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+}
+
+.offre-card{
+    background:#eeeeee;
+    border:1px solid #999;
+    border-radius:10px;
+    padding:28px;
+    display:flex;
+    gap:30px;
+    align-items:center;
+}
+
+.card-logo{
+    width:110px;
+    height:110px;
+    background:white;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:42px;
+    font-weight:bold;
+}
+
+.card-body{
+    flex:1;
+}
+
+.badge-categorie{
+    display:inline-block;
+    padding:6px 14px;
+    border-radius:20px;
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+.card-body h2{
+    font-size:24px;
+    margin:10px 0;
+}
+
+.card-meta{
+    display:flex;
+    gap:20px;
+    font-size:14px;
+    margin:10px 0;
+}
+
+.card-tags{
+    display:flex;
+    gap:12px;
+    margin-top:15px;
+}
+
+.card-tags span{
+    background:#d4d4d4;
+    padding:7px 18px;
+    border-radius:8px;
+    font-size:13px;
+}
+
+.btn-detail{
+    background:#1138c8;
+    color:white;
+    padding:12px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:20px;
+}
+.site-footer{
+    background:#020617;
+    color:white;
+    padding:55px 45px 20px;
+    margin-top:80px;
+}
+
+.footer-newsletter{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+    padding-bottom:35px;
+    border-bottom:1px solid rgba(255,255,255,0.18);
+}
+
+.footer-newsletter h2{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.footer-newsletter p{
+    color:#cbd5e1;
+    max-width:520px;
+    line-height:1.4;
+}
+
+.footer-newsletter form{
+    display:flex;
+    gap:70px;
+}
+
+.footer-newsletter input{
+    width:230px;
+    padding:20px;
+    border-radius:10px;
+    border:none;
+    background:#e5e5e5;
+}
+
+.footer-newsletter button{
+    width:200px;
+    border:none;
+    border-radius:10px;
+    background:#253bb2;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.footer-content{
+    display:grid;
+    grid-template-columns:1.7fr 1fr 1fr 1fr 1fr;
+    gap:60px;
+    padding:60px 45px 35px;
+    border-bottom:1px solid rgba(255,255,255,0.18);
+}
+
+.footer-logo h3{
+    color:#3446b8;
+    font-size:20px;
+    line-height:1.2;
+}
+
+.footer-col{
+    display:flex;
+    flex-direction:column;
+    gap:13px;
+}
+
+.footer-col h4{
+    color:white;
+    font-size:17px;
+    margin-bottom:5px;
+}
+
+.footer-col a{
+    color:#cbd5e1;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.footer-col a:hover{
+    color:white;
+}
+
+.footer-bottom{
+    padding:20px 20px 0;
+    color:#94a3b8;
+}
+
+@media(max-width:900px){
+    .footer-newsletter{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .footer-newsletter form{
+        gap:15px;
+        flex-direction:column;
+        width:100%;
+    }
+
+    .footer-newsletter input,
+    .footer-newsletter button{
+        width:100%;
+    }
+
+    .footer-content{
+        grid-template-columns:1fr;
+        padding:40px 0;
+    }
+}
+
+/* ACCUEIL */
+
+.hero{
+    max-width:1100px;
+    margin:40px auto 70px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+    padding:0 20px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text .welcome{
+    display:inline-block;
+    background:#dffcf5;
+    color:#00a88f;
+    font-size:12px;
+    font-weight:bold;
+    padding:5px 8px;
+    text-transform:uppercase;
+}
+
+.hero-text h1{
+    font-size:42px;
+    line-height:1.1;
+    margin:15px 0;
+}
+
+.hero-text .description{
+    max-width:480px;
+    color:#555;
+    margin-bottom:30px;
+}
+
+.search-box{
+    background:#f1f1f1;
+    padding:18px;
+    border-radius:8px;
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.search-box input,
+.search-box select{
+    flex:1;
+    padding:14px;
+    border:none;
+    border-radius:6px;
+}
+
+.search-box button{
+    background:#1138c8;
+    color:white;
+    padding:14px 35px;
+    border:none;
+    border-radius:6px;
+}
+
+.categories{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.categories span{
+    background:#f2f2f2;
+    padding:8px 16px;
+    border-radius:20px;
+    font-size:13px;
+}
+
+.hero-image img{
+    max-width:430px;
+}
+
+/* OFFRES RECENTES ACCUEIL */
+
+.offres{
+    max-width:1100px;
+    margin:0 auto 90px;
+    padding:0 20px;
+}
+
+.section-title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+/* ===== OFFRES RECENTES ===== */
+
+.offres{
+    max-width:1100px;
+    margin:80px auto;
+    padding:0 20px;
+}
+
+.offres-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.offre-card{
+    background:#fff;
+    border:1px solid #d9d9d9;
+    border-radius:24px;
+
+    width:320px;
+    height:280px;
+
+    padding:25px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    transition:.3s;
+}
+
+.offre-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+.offre-card a{
+    align-self:center;
+    margin-top:auto;
+}
+.offre-card{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.offre-card a{
+    margin-top:auto;
+    align-self:flex-start;
+}
+
+.offre-card a{
+    align-self:flex-start;
+
+    background:#2241d1;
+    color:white;
+    text-decoration:none;
+
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:600;
+}
+.offre-card:first-child{
+    background:#f3e5d8;
+}
+
+.offre-card .tag{
+    background:#f1ebe3;
+    color:#555;
+    padding:8px 18px;
+    border-radius:20px;
+    width:max-content;
+    font-size:14px;
+}
+
+.offre-card h3{
+    font-size:18px;
+    line-height:1.3;
+    margin:10px 0;
+}
+
+
+.offre-card p{
+    font-size:14px;
+    line-height:1.5;
+    color:#555;
+}
+
+.meta{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    font-size:14px;
+}
+
+.offre-card a{
+    background:#1439d6;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    width:max-content;
+    font-weight:600;
+}
+/* POURQUOI NOTRE SITE */
+
+.why-section{
+    background:#ffffff;
+    border:1px solid #dcdcdc;
+    border-radius:24px;
+
+    max-width:1300px;
+    min-height:260px;
+    margin:100px auto;
+    padding:70px 60px;
+}
+.why-grid{
+    gap:70px;
+}
+
+.why-card h3{
+    font-size:18px;
+}
+
+.why-card p{
+    font-size:15px;
+}
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:40px;
+    text-align:center;
+}
+.why-section h2{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:40px;
+    text-align:center;
+    align-items:start;
+}
+
+.why-card{
+    text-align:center;
+}
+
+.why-card h3{
+    font-size:16px;
+    margin:15px 0 8px;
+}
+
+.why-card p{
+    font-size:13px;
+    color:#444;
+}
+
+/* CONSEILS RECENTS */
+
+.conseils{
+    max-width:1100px;
+    margin:90px auto;
+    padding:0 20px;
+}
+
+.conseils-header{
+    display:flex;
+justify-content:flex-start;
+gap:22px;    align-items:center;
+    margin-bottom:35px;
+}
+
+.conseils-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:35px;
+}
+
+.conseil-card{
+    background:#eeeeee;
+}
+
+.conseil-card img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    display:block;
+}
+
+.conseil-card-content{
+    padding:18px;
+}
+
+.conseil-card span{
+    color:#1138c8;
+    font-weight:bold;
+    font-size:12px;
+    text-transform:uppercase;
+}
+
+.conseil-card h3{
+    font-size:18px;
+    margin:12px 0;
+}
+
+.conseil-card p{
+    font-size:13px;
+}
+
+.hero-image{
+    width: 450px;
+    height: auto;
+    display: block;
+}
+.conseil-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    display:block;
+    border-radius:12px 12px 0 0;
+}.voir-tout{
+    display:block;
+    margin-left:80px;
+    margin-bottom:25px;
+}
+
+/* ===== FIX FINAL ACCUEIL ===== */
+
+.offres{
+    max-width:1150px;
+    margin:90px auto;
+    padding:0 20px;
+}
+
+.section-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:50px;
+}
+
+.section-title p{
+    display:none;
+}
+
+.voir-tout{
+    font-weight:700;
+    color:#1238d6;
+    text-decoration:none;
+}
+
+/* CARTES OFFRES */
+
+.offres-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.offre-card{
+    width:300px;          /* avant 350-400px */
+    min-height:260px;     /* plus compact */
+    padding:25px;
+
+    background:#fff;
+border:1px solid #ffffff;
+box-shadow:0 3px 10px rgba(0,0,0,0.04);    border-radius:20px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    transition:0.3s;
+}
+
+.offre-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.offre-card h3{
+    font-size:1.7rem;
+    margin:15px 0;
+}
+
+.offre-card p{
+    font-size:0.95rem;
+    line-height:1.5;
+}
+
+.meta{
+    font-size:0.9rem;
+    margin:15px 0;
+}
+
+.offre-card a{
+    align-self:center;
+    margin-top:15px;
+}
+.offre-card h3{
+    font-size:1.4rem;
+}
+
+.offre-card p{
+    font-size:0.9rem;
+}
+
+/* POURQUOI NOTRE SITE */
+
+.why-section{
+    background:#fff;
+    border:1px solid #dcdcdc;
+    border-radius:24px;
+
+    max-width:1200px;
+    margin:80px auto;
+
+    padding:40px 35px;
+}
+
+.why-section h2{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+    text-align:center;
+}
+
+.why-card h3{
+    font-size:20px;
+    margin:10px 0;
+}
+
+.why-card p{
+    font-size:15px;
+    line-height:1.5;
+}
+
+.offres .offre-card a{
+    position:static !important;
+    transform:none !important;
+    margin-top:6px !important;
+    display:inline-block !important;
+}
+
+/* ACCUEIL UNIQUEMENT */
+
+body .offres > .offres-container{
+    display:grid !important;
+    grid-template-columns:repeat(3, 280px) !important;
+    gap:45px !important;
+    justify-content:center !important;
+}
+
+body .offres > .offres-container > .offre-card{
+    width:280px !important;
+    height:260px !important;
+    padding:22px !important;
+    border-radius:22px !important;
+    background:#fff !important;
+    display:flex !important;
+    flex-direction:column !important;
+    gap:12px !important;
+    overflow:hidden !important;
+}
+
+body .offres > .offres-container > .offre-card:first-child{
+    background:#f3e5d8 !important;
+}
+
+body .offres > .offres-container > .offre-card a{
+    position:static !important;
+    transform:none !important;
+    margin-top:auto !important;
+    align-self:flex-start !important;
+}
+/* ACCUEIL UNIQUEMENT */
+
+.accueil-offres{
+    max-width:1200px;
+    margin:80px auto;
+}
+
+.accueil-offres-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.accueil-offre-card{
+    width:280px;
+    height:260px;
+
+    background:#fff;
+    border:1px solid #dcdcdc;
+    border-radius:20px;
+
+    padding:20px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.accueil-offre-card:first-child{
+    background:#f3e5d8;
+}
+
+.accueil-offre-card h3{
+    font-size:18px;
+    margin:10px 0;
+}
+
+.accueil-offre-card p{
+    font-size:14px;
+    line-height:1.4;
+}
+
+.accueil-offre-card a{
+    background:#1f40d8;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    width:max-content;
+}
+/* PAGE OFFRES UNIQUEMENT */
+
+.offres-page .offres-list-section{
+    max-width:1100px;
+    margin:40px auto;
+}
+
+.offres-page .offres-cards{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.offres-page .offre-card{
+    width:100% !important;
+    height:auto !important;
+    min-height:180px !important;
+
+    display:flex !important;
+    flex-direction:row !important;
+    align-items:center !important;
+    gap:30px !important;
+
+    padding:30px !important;
+    background:#fff !important;
+    border:1px solid #ddd !important;
+    border-radius:14px !important;
+}
+
+.offres-page .card-body{
+    flex:1;
+}
+
+.offres-page .card-action{
+    margin-left:auto;
+}
+
+.offres-page .btn-voir{
+    position:static !important;
+    transform:none !important;
+}
+.dashboard-page{
+    max-width:1180px;
+    margin:55px auto 80px;
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:45px;
+}
+
+.sidebar{
+    border-right:2px solid #111;
+    padding:20px 35px 20px 0;
+}
+
+.dashboard-content{
+    width:100%;
+    max-width:820px;
+    padding:20px 0;
+}
+
+.dashboard-header h1{
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.stats-container{
+    display:grid;
+    grid-template-columns:repeat(4, 150px);
+    gap:22px;
+    margin:35px 0 55px;
+}
+
+.dashboard-section{
+    margin-top:45px;
+    width:100%;
+}
+
+.section-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.candidature-card{
+    width:100%;
+}
+
+.dashboard-offres{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:22px;
+}
+
+.stats-container{
+    display:grid;
+    grid-template-columns:repeat(3, 160px);
+    gap:30px;
+    margin:40px 0;
+}
+
+.stat-card{
+    border:1px solid #999;
+    border-radius:8px;
+    padding:20px;
+    background:#eee;
+}
+
+.stat-card h3{
+    font-size:28px;
+    margin:0;
+}
+
+.dashboard-section{
+    margin-top:45px;
+}
+
+.dashboard-offres{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.dashboard-offre-card{
+    border:1px solid #aaa;
+    border-radius:8px;
+    background:#eee;
+    padding:20px;
+}
+
+.candidature-card{
+    border:1px solid #aaa;
+    border-radius:10px;
+    padding:18px;
+    margin-bottom:12px;
+    background:#eee;
+}
+.dashboard-page{
+    max-width:1100px;
+    margin:70px auto;
+    display:grid;
+    grid-template-columns:240px 1fr;
+    gap:50px;
+}
+
+.sidebar{
+    border-right:2px solid #111;
+    padding-right:30px;
+}
+
+.dashboard-content{
+    padding-left:10px;
+}
+.sidebar h2{
+    font-size:28px;
+    margin-bottom:35px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar li{
+    margin-bottom:25px;
+}
+
+.sidebar a{
+    text-decoration:none;
+    color:#111;
+    font-size:17px;
+    font-weight:500;
+}
+/* DASHBOARD CANDIDAT */
+
+.dashboard-page{
+    max-width:1100px;
+    margin:60px auto;
+    display:grid;
+    grid-template-columns:230px 1fr;
+    gap:55px;
+}
+
+.sidebar{
+    border-right:2px solid #111;
+    padding-right:30px;
+}
+
+.sidebar h2{
+    font-size:24px;
+    margin-bottom:35px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    gap:26px;
+}
+
+.sidebar a{
+    text-decoration:none;
+    color:#111;
+    font-weight:600;
+}
+
+.dashboard-content{
+    padding-left:10px;
+}
+
+.dashboard-header h1{
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.dashboard-header p{
+    color:#555;
+}
+
+.stats-container{
+    display:grid;
+    grid-template-columns:repeat(3, 150px);
+    gap:28px;
+    margin:40px 0;
+}
+
+.stat-card{
+    background:#eee;
+    border:1px solid #999;
+    border-radius:8px;
+    padding:20px;
+}
+
+.stat-card h3{
+    font-size:28px;
+    margin:0 0 15px;
+}
+
+.dashboard-section{
+    margin-top:55px;
+}
+
+.section-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.section-header a{
+    color:#003c8f;
+    font-weight:700;
+    text-decoration:none;
+}
+
+.candidatures-list{
+    display:flex;
+    flex-direction:column;
+}
+
+.candidature-card{
+    display:grid;
+    grid-template-columns:80px 1fr 160px 100px 20px;
+    align-items:center;
+    gap:18px;
+
+    background:#eee;
+    border:1px solid #999;
+    border-radius:12px;
+    padding:18px 22px;
+}
+
+.logo-box{
+    width:60px;
+    height:60px;
+    border-radius:8px;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:700;
+}
+
+.candidature-card h3{
+    margin:0 0 8px;
+    font-size:18px;
+}
+
+.candidature-card p{
+    margin:0;
+    color:#333;
+}
+
+.status{
+    padding:8px 12px;
+    border-radius:10px;
+    font-weight:700;
+    text-align:center;
+    font-size:13px;
+}
+
+.status.orange{
+    background:#ffd99b;
+    color:#d98900;
+}
+
+.status.blue{
+    background:#d8ecff;
+    color:#1261d1;
+}
+
+.status.green{
+    background:#bff2b3;
+    color:#1e9b32;
+}
+
+.dashboard-offres{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:24px;
+}
+
+.dashboard-offre-card{
+    background:#eee;
+    border:1px solid #999;
+    border-radius:10px;
+    padding:20px;
+}
+
+.dashboard-offre-card h3{
+    font-size:16px;
+    margin:15px 0;
+}
+
+.new{
+    display:inline-block;
+    padding:6px 16px;
+    border-radius:12px;
+    font-size:12px;
+    font-weight:700;
+}
+
+.new.green{
+    background:#bff2b3;
+    color:#1e9b32;
+}
+
+.new.yellow{
+    background:#ffe2a3;
+    color:#b97a00;
+}
+.dashboard-content{
+    max-width:760px;
+}
+
+.candidatures-list{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+}
+
+.candidature-card{
+    height:95px;
+    display:grid !important;
+    grid-template-columns:70px 1fr 150px 90px 20px;
+    align-items:center;
+    gap:15px;
+    padding:16px 22px !important;
+    background:#eee;
+    border:1px solid #999;
+    border-radius:12px;
+}
+
+.candidature-card p{
+    margin:0;
+}
+
+.status{
+    border-radius:10px;
+    padding:7px 10px;
+    font-weight:700;
+    font-size:13px;
+    text-align:center;
+}
+
+.orange{background:#ffd99b;color:#c47a00;}
+.blue{background:#d8ecff;color:#1261d1;}
+.green{background:#bff2b3;color:#1e9b32;}.dashboard-page{
+    max-width:1050px;
+    margin:60px auto;
+    display:grid;
+    grid-template-columns:230px 1fr;
+    gap:45px;
+}
+
+.dashboard-content{
+    max-width:760px;
+}
+
+.stats-container{
+    display:grid;
+    grid-template-columns:repeat(3, 150px);
+    gap:25px;
+    margin:35px 0 55px;
+}
+
+.dashboard-section{
+    margin-top:45px;
+}
+
+.candidatures-list{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+}
+
+.candidature-card{
+    width:100%;
+    height:95px;
+    display:grid;
+    grid-template-columns:70px 1fr 150px 90px 20px;
+    align-items:center;
+    gap:15px;
+    padding:16px 22px;
+}
+
+.dashboard-offres{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:22px;
+}
+/* FIX POSITION DASHBOARD */
+
+.dashboard-page{
+    max-width:1050px !important;
+    margin:70px auto !important;
+    display:grid !important;
+    grid-template-columns:260px 1fr !important;
+    gap:55px !important;
+}
+
+.sidebar{
+    border-right:2px solid #111 !important;
+    padding-right:35px !important;
+}
+
+.dashboard-content{
+    max-width:760px !important;
+    width:100% !important;
+}
+
+.stats-container{
+    display:grid !important;
+    grid-template-columns:repeat(3, 150px) !important;
+    gap:28px !important;
+}
+
+.dashboard-section{
+    width:100% !important;
+}
+
+.candidatures-list,
+.dashboard-offres{
+    width:100% !important;
+}
+.site-footer{
+    background:#020617;
+    color:white;
+    padding:60px 70px 25px;
+    width:100%;
+}
+
+.footer-newsletter{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+    padding-bottom:45px;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.footer-newsletter form{
+    display:flex;
+    gap:40px;
+}
+
+.footer-newsletter input{
+    width:260px;
+    height:55px;
+    border-radius:8px;
+    border:none;
+    padding:0 20px;
+}
+
+.footer-newsletter button{
+    width:220px;
+    height:55px;
+    border:none;
+    border-radius:8px;
+    background:#1d3fd1;
+    color:white;
+    font-weight:700;
+}
+
+.footer-content{
+    display:grid;
+    grid-template-columns:1.3fr 1fr 1fr 1fr 1fr;
+    gap:55px;
+    padding:55px 0;
+}
+
+.footer-col{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.footer-col a{
+    color:white;
+    text-decoration:none;
+}
+
+.footer-bottom{
+    border-top:1px solid rgba(255,255,255,0.2);
+    padding-top:20px;
+}
+html, body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+.site-footer{
+    width:100vw;
+    margin-left:calc(50% - 50vw);
+    margin-right:calc(50% - 50vw);
+    box-sizing:border-box;
+}
+
+.footer-newsletter,
+.footer-content,
+.footer-bottom{
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.type-compte{
+    display:flex;
+    gap:35px;
+    margin:30px 0;
+}
+
+.type-btn{
+    width:180px;
+    padding:18px 0;
+    text-align:center;
+    border:1px solid #999;
+    border-radius:8px;
+    text-decoration:none;
+    color:#111;
+    font-weight:700;
+}
+
+.type-btn.active{
+    background:#bcd7f5;
+    color:#123bd8;
+}
+.type-compte{
+    display:flex !important;
+    gap:35px !important;
+    margin:30px 0 !important;
+}
+
+.type-btn{
+    display:block !important;
+    width:180px !important;
+    padding:18px 0 !important;
+    text-align:center !important;
+    border:1px solid #999 !important;
+    border-radius:8px !important;
+    text-decoration:none !important;
+    color:#111 !important;
+    font-weight:700 !important;
+}
+
+.type-btn.active{
+    background:#bcd7f5 !important;
+    color:#123bd8 !important;
+}
+/* CORRECTIONS DESIGN GLOBAL */
+.card,
+.offer-card,
+.info-card,
+.why-card,
+.faq-item,
+.ressource-card,
+.dashboard-card,
+.stat-card,
+.candidat-row,
+.offre-card,
+.publication-card,
+.entreprise-form{
+    background:#fff !important;
+    border:1px solid #dcdcdc !important;
+}
+
+.why-section,
+.missions-card,
+.detail-card,
+.info-box{
+    background:#fff !important;
+    border:1px solid #dcdcdc !important;
+}
+
+section{
+    background:#fff;
+}
+
+/* Accueil : réduire "Pourquoi notre site ?" */
+.why-section{
+    max-width:950px !important;
+    margin:50px auto !important;
+    padding:35px !important;
+}
+
+.why-grid{
+    gap:25px !important;
+}
+
+.why-card{
+    padding:20px !important;
+}
+
+/* Détail offre : bouton postuler centré */
+.apply-card,
+.postuler-box{
+    text-align:center !important;
+}
+
+.apply-card .btn-primary,
+.postuler-box .btn-primary,
+.btn-postuler{
+    display:block !important;
+    width:80% !important;
+    margin:0 auto 15px !important;
+    text-align:center !important;
+}
+
+.offer-card,
+.why-section,
+.faq-item,
+.stat-card,
+.offre-card,
+.candidat-card,
+.publication-card{
+    background:#fff !important;
+    border:1px solid #dcdcdc !important;
+    border-radius:16px !important;
+}
+
+.why-card,
+.badge,
+.tag,
+.chip{
+    border:none !important;
+    background:transparent !important;
+}
+
+/* Enlever orange/gris sur offres accueil */
+.offer-card,
+.offre-card,
+.stage-card,
+.job-card,
+.offers-card,
+.offre{
+    background:#fff !important;
+    border:1px solid #dcdcdc !important;
+}
+
+/* Badges gris simples */
+.badge,
+.tag,
+.chip,
+.type,
+.pill{
+    background:#fff !important;
+    border:1px solid #dcdcdc !important;
+}
+
+/* Détail offre : blocs blancs */
+.missions-card,
+.info-box,
+.detail-card,
+.offer-info,
+.sidebar-card{
+    background:#fff !important;
+    border:1px solid #dcdcdc !important;
+}
+
+/* Supprimer fond orange spécifique */
+[style*="background"],
+[style*="orange"],
+[style*="#f"]{
+    background:#fff !important;
+}
+.logo img{
+    height:50px;
+}
+.footer-logo-img{
+    height:60px;
+}
+.figma-inscription{
+    width:520px;
+    margin:60px 0 80px 70px;
+}
+
+.figma-inscription h1{
+    font-size:28px;
+    text-decoration:underline;
+    margin-bottom:15px;
+}
+
+.figma-inscription p{
+    margin-bottom:35px;
+}
+
+.account-choice{
+    display:flex;
+    gap:20px;
+    margin:20px 0;
+}
+
+.choice-btn{
+    width:165px;
+    padding:18px 0;
+    text-align:center;
+    border:1px solid #777;
+    border-radius:6px;
+    text-decoration:none;
+    color:#111;
+    font-size:20px;
+    font-weight:bold;
+    background:white;
+}
+
+.choice-btn.active{
+    background:#cfe3ff;
+    color:#1837b8;
+}
+
+.figma-inscription .auth-form{
+    width:430px;
+}
+
+.figma-inscription label{
+    display:block;
+    margin:18px 0 8px;
+    font-weight:bold;
+}
+
+.figma-inscription input[type="email"],
+.figma-inscription input[type="password"]{
+    width:100%;
+    height:36px;
+    border:1px solid #777;
+    border-radius:7px;
+    padding:0 15px;
+}
+
+.terms{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin:25px 0;
+    font-size:14px;
+}
+
+.terms input{
+    width:16px;
+    height:16px;
+    accent-color:#273fae;
+}
+
+.figma-inscription button{
+    width:430px;
+    height:52px;
+    background:#263fab;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.auth-link{
+    text-align:center;
+    margin-top:35px;
+}
+.choice-btn.active{
+    background:#cfe3ff;
+    color:#1837b8;
+}
+.auth-page{
+    padding:25px 20px 50px;
+}
+
+.auth-container{
+    max-width:500px;
+    margin:0 auto;
+}
+
+.figma-inscription{
+    width:520px;
+    margin:25px auto 60px;
+}
+
+.account-choice{
+    display:flex;
+    gap:35px;
+    margin:25px 0;
+}
+
+.choice-btn{
+    width:165px;
+    padding:18px 0;
+}
+
+/* ===== PAGE ===== */
+
+.auth-page{
+    padding:40px 0 80px;
+}
+
+.figma-inscription{
+    width:540px;
+    margin:0 auto;
+}
+
+.figma-inscription h1{
+    margin-bottom:10px;
+}
+
+.figma-inscription p{
+    margin-bottom:25px;
+}
+
+.account-choice{
+    display:flex;
+    gap:30px;
+    margin:25px 0 35px;
+}
+
+.choice-btn{
+    width:170px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    border:1px solid #888;
+    border-radius:6px;
+    background:#fff;
+    color:#111;
+    font-size:18px;
+    font-weight:700;
+}
+
+.choice-btn.active{
+    background:#d9e8ff;
+    color:#2443c2;
+}
+
+.auth-form label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.auth-form input[type="email"],
+.auth-form input[type="password"]{
+    width:100%;
+    height:42px;
+    padding:0 15px;
+    border:1px solid #999;
+    border-radius:6px;
+    margin-bottom:22px;
+}
+
+.terms{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:20px 0 30px;
+    font-size:13px;
+}
+
+.terms input{
+    width:14px;
+    height:14px;
+}
+
+.auth-form button{
+    width:100%;
+    height:48px;
+    border:none;
+    border-radius:5px;
+    background:#263fab;
+    color:white;
+    font-size:15px;
+    font-weight:600;
+}
+
+.auth-link{
+    text-align:center;
+    margin-top:25px;
+}
+
+.auth-form label{
+    display:block;
+    margin-bottom:6px;
+    font-weight:600;
+    font-size:16px;
+}
+
+.auth-form input[type="email"],
+.auth-form input[type="password"]{
+    width:100%;
+    height:45px;
+    padding:0 15px;
+    border:1px solid #bdbdbd;
+    border-radius:6px;
+    margin-bottom:14px; /* AVANT 22px ou plus */
+}
+
+.form-group{
+    margin-bottom:8px;
+}
+
+.terms{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:18px 0 20px;
+    font-size:14px;
+}
+
+.auth-form button{
+    width:100%;
+    height:48px;
+    margin-top:5px;
+}
+
+.auth-link{
+    margin-top:18px;
+    text-align:center;
+}/* FIX FINAL INSCRIPTION */
+.auth-page{
+    padding:30px 0 50px !important;
+}
+
+.figma-inscription{
+    width:460px !important;
+    margin:0 auto !important;
+}
+
+.figma-inscription h1{
+    font-size:28px !important;
+    margin:0 0 10px !important;
+}
+
+.figma-inscription > p{
+    margin:0 0 18px !important;
+}
+
+.account-choice{
+    display:flex !important;
+    gap:25px !important;
+    margin:0 0 25px !important;
+}
+
+.choice-btn{
+    width:170px !important;
+    height:52px !important;
+    padding:0 !important;
+}
+
+.auth-form label{
+    margin:0 0 6px !important;
+}
+
+.auth-form input[type="email"],
+.auth-form input[type="password"]{
+    height:38px !important;
+    margin:0 0 14px !important;
+}
+
+.form-group{
+    margin:0 0 12px !important;
+}
+
+.terms{
+    margin:8px 0 18px !important;
+    gap:8px !important;
+}
+
+.terms input{
+    width:14px !important;
+    height:14px !important;
+}
+
+.auth-form button{
+    height:46px !important;
+    margin:0 !important;
+}
+
+.auth-link{
+    margin-top:18px !important;
+}
+
+.figma-inscription input[type="text"],
+.figma-inscription input[type="email"],
+.figma-inscription input[type="password"]{
+    width:100% !important;
+    height:38px !important;
+    padding:0 15px !important;
+    border:1px solid #bdbdbd !important;
+    border-radius:6px !important;
+    margin-bottom:14px !important;
+    box-sizing:border-box !important;
+}
+
+.choice-btn.active{
+    background:#d9e8ff !important;
+    color:#2443c2 !important;
+    border-color:#2443c2 !important;
+}
+/* FIX inscription entreprise */
+.figma-inscription input[type="text"],
+.figma-inscription input[type="email"],
+.figma-inscription input[type="password"]{
+    width:100% !important;
+    height:38px !important;
+    padding:0 15px !important;
+    border:1px solid #bdbdbd !important;
+    border-radius:6px !important;
+    margin:0 0 14px !important;
+    box-sizing:border-box !important;
+}
+
+.figma-inscription .form-group{
+    margin-bottom:12px !important;
+}
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.figma-inscription label {
+    margin: 8px 0 4px;
+}
+
+.figma-inscription input {
+    margin-bottom: 6px;
+}
+
+.terms {
+    margin: 12px 0;
+}
+
+.figma-inscription button {
+    margin-top: 10px;
+}
+
+.auth-link {
+    margin-top: 15px;
+}
+/* Finition inscription entreprise */
+.figma-inscription .auth-form button,
+.figma-inscription button{
+    transition:0.2s ease;
+    cursor:pointer;
+}
+
+.figma-inscription .auth-form button:hover,
+.figma-inscription button:hover{
+    background:#1f3497 !important;
+    transform:translateY(-1px);
+}
+
+.auth-link{
+    text-align:center !important;
+    margin-top:18px !important;
+    font-size:14px !important;
+}
+
+.auth-link a{
+    color:#1234a4 !important;
+    font-weight:700 !important;
+    text-decoration:underline !important;
+}
+
+.auth-link a:hover{
+    color:#0b2475 !important;
+}
+/* Dashboard entreprise clean */
+.enterprise-dashboard{
+    max-width:1100px;
+    margin:70px auto;
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:60px;
+}
+
+.enterprise-sidebar{
+    border-right:2px solid #111;
+    padding-right:40px;
+}
+
+.enterprise-sidebar h2{
+    margin-bottom:35px;
+}
+
+.enterprise-sidebar a{
+    display:block;
+    margin:28px 0;
+    color:#111;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.enterprise-main h1{
+    margin-bottom:35px;
+}
+
+.stats{
+    display:flex;
+    gap:25px;
+    margin-bottom:35px;
+}
+
+.stat-card{
+    width:150px;
+    min-height:130px;
+    border:1px solid #ddd;
+    border-radius:14px;
+    padding:25px;
+}
+
+.stat-card strong{
+    display:block;
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.btn-primary{
+    background:#1738d1;
+    color:#fff;
+    padding:14px 28px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:700;
+    display:inline-block;
+}
+/* ===== ESPACE ENTREPRISE FINAL ===== */
+
+.enterprise-page{
+    max-width:1100px;
+    margin:60px auto;
+    display:grid;
+    grid-template-columns:260px 1fr;
+    gap:60px;
+}
+
+.enterprise-sidebar{
+    border-right:2px solid #111;
+    padding-right:40px;
+}
+
+.enterprise-sidebar h2{
+    margin-bottom:35px;
+}
+
+.enterprise-sidebar a{
+    display:block;
+    margin:28px 0;
+    color:#111;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.enterprise-content h1{
+    margin-bottom:25px;
+}
+
+.enterprise-card,
+.form-card,
+.offer-card{
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:14px;
+    padding:28px;
+    margin-bottom:25px;
+}
+
+.enterprise-form label{
+    display:block;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.enterprise-form input,
+.enterprise-form textarea,
+.enterprise-form select{
+    width:100%;
+    padding:12px 14px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-bottom:18px;
+    box-sizing:border-box;
+}
+
+.enterprise-form textarea{
+    min-height:130px;
+    resize:vertical;
+}
+
+.btn-primary,
+.enterprise-form button{
+    background:#1738d1;
+    color:white;
+    padding:14px 26px;
+    border:none;
+    border-radius:8px;
+    font-weight:700;
+    text-decoration:none;
+    display:inline-block;
+    cursor:pointer;
+}
+
+.btn-primary:hover,
+.enterprise-form button:hover{
+    background:#10299b;
+}
+
+.stats{
+    display:flex;
+    gap:25px;
+    margin:25px 0 35px;
+}
+
+.stat-card{
+    width:150px;
+    min-height:120px;
+    border:1px solid #ddd;
+    border-radius:14px;
+    padding:25px;
+}
+
+.stat-card strong{
+    display:block;
+    font-size:32px;
+    margin-bottom:18px;
+}
+/* ===== ESPACE ENTREPRISE FIGMA ===== */
+
+body{
+    background:#fff;
+}
+
+.entreprise-page{
+    display:flex;
+    max-width:1200px;
+    margin:0 auto;
+    min-height:650px;
+}
+
+.entreprise-sidebar{
+    width:260px;
+    padding:55px 30px;
+    border-right:1px solid #111;
+}
+
+.entreprise-sidebar h2{
+    font-size:22px;
+    margin-bottom:8px;
+}
+
+.entreprise-sidebar p{
+    font-size:13px;
+    color:#555;
+    margin-bottom:35px;
+}
+
+.entreprise-sidebar a{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 18px;
+    margin-bottom:16px;
+    border-radius:10px;
+    color:#111;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.entreprise-sidebar a.active,
+.entreprise-sidebar a:hover{
+    background:#dbe9ff;
+    color:#2451ff;
+}
+
+.entreprise-content{
+    flex:1;
+    padding:55px 45px;
+}
+
+.entreprise-content h1{
+    font-size:42px;
+    margin-bottom:8px;
+}
+
+.entreprise-content > p{
+    color:#555;
+    margin-bottom:35px;
+}
+
+/* stats */
+.stats-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:22px;
+    margin-bottom:35px;
+}
+
+.stat-box{
+    border:1px solid #111;
+    border-radius:14px;
+    padding:25px;
+    min-height:140px;
+    background:#f4f4f4;
+}
+
+.stat-box .icon{
+    font-size:32px;
+    margin-bottom:18px;
+}
+
+.stat-box strong{
+    display:block;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.stat-box span{
+    font-weight:700;
+}
+
+/* listes offres/candidatures */
+.list-card{
+    border:1px solid #111;
+    border-radius:14px;
+    padding:16px 20px;
+    margin-bottom:10px;
+    display:grid;
+    grid-template-columns:60px 1fr auto auto auto;
+    align-items:center;
+    gap:20px;
+    background:#f5f6f8;
+}
+
+.list-icon{
+    width:48px;
+    height:48px;
+    border-radius:8px;
+    background:#8e5ad8;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:24px;
+}
+
+.status{
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:700;
+}
+
+.status.active{ background:#c9f7d2; color:#078b24; }
+.status.pending{ background:#fff1c7; color:#9a6a00; }
+.status.closed{ background:#ffd4d4; color:#b30000; }
+
+/* formulaire publier */
+.publish-layout{
+    display:flex;
+    align-items:flex-start;
+    gap:60px;
+    margin-top:40px;
+}
+
+
+.steps{
+    padding-top:40px;
+}
+
+.step{
+    display:flex;
+    gap:16px;
+    padding:16px;
+    margin-bottom:10px;
+    border-radius:8px;
+    font-weight:700;
+}
+
+.step.active{
+    background:#dbe9ff;
+    color:#2451ff;
+}
+
+.publish-card{
+    background:#eee;
+    border-radius:22px;
+    padding:35px;
+    max-width:520px;
+}
+
+.publish-card h2{
+    margin-bottom:28px;
+}
+
+.publish-card label{
+    display:block;
+    font-size:13px;
+    margin-bottom:8px;
+}
+
+.publish-card input,
+.publish-card textarea,
+.publish-card select{
+    width:100%;
+    height:42px;
+    border:none;
+    border-radius:8px;
+    padding:0 14px;
+    margin-bottom:20px;
+    box-sizing:border-box;
+}
+
+.publish-card textarea{
+    height:120px;
+    padding-top:12px;
+}
+
+.btn-next,
+.btn-primary{
+    background:#263fab;
+    color:white;
+    border:none;
+    padding:14px 28px;
+    border-radius:8px;
+    font-weight:700;
+    cursor:pointer;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.btn-next:hover,
+.btn-primary:hover{
+    background:#1d3190;
+}
+.success-message{
+    background:#d4edda;
+    color:#155724;
+    padding:12px 16px;
+    border-radius:8px;
+    margin-bottom:20px;
+}
+/* FIX publier offre entreprise */
+.entreprise-page{
+    max-width:1200px !important;
+    display:grid !important;
+    grid-template-columns:260px 1fr !important;
+    gap:60px !important;
+    margin:0 auto !important;
+}
+
+.entreprise-content{
+    padding:55px 40px !important;
+}
+
+.entreprise-content h1{
+    font-size:36px !important;
+    line-height:1.1 !important;
+    width:auto !important;
+    max-width:700px !important;
+}
+
+.publish-layout{
+    display:grid !important;
+    grid-template-columns:300px 520px !important;
+    gap:45px !important;
+    align-items:start !important;
+}
+
+.steps{
+    width:300px !important;
+}
+
+.publish-card{
+    width:520px !important;
+    max-width:520px !important;
+    padding:35px !important;
+    box-sizing:border-box !important;
+}
+
+.publish-card input,
+.publish-card textarea{
+    width:100% !important;
+    box-sizing:border-box !important;
+}
+.dashboard-content h1{
+    width:auto !important;
+    max-width:none !important;
+}
+.publish-layout{
+    gap:20px;
+}
+.publish-card textarea{
+    height:120px;
+}
+.publish-card button{
+    width:180px;
+    height:50px;
+    border-radius:12px;
+}
+.steps li{
+    margin-bottom:40px;
+}
+.publish-layout{
+    justify-content:center;
+    align-items:flex-start;
+}
+.dashboard-page{
+    display:flex;
+    min-height:100vh;
+    background:#f7f7f7;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+    width:260px;
+    min-width:260px;
+    padding:50px 30px;
+    border-right:1px solid #d9d9d9;
+}
+
+.sidebar h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+    margin-top:50px;
+}
+
+.sidebar li{
+    margin-bottom:20px;
+}
+
+.sidebar a{
+    display:block;
+    padding:15px;
+    border-radius:12px;
+    text-decoration:none;
+    color:#111;
+    font-weight:600;
+}
+
+.sidebar a:hover,
+.sidebar .active{
+    background:#dfeaff;
+    color:#4a6cf7;
+}
+
+/* CONTENU */
+
+.offres-content{
+    flex:1;
+    padding:60px;
+}
+
+.offres-content h1{
+    font-size:56px;
+    margin-bottom:10px;
+}
+
+.offres-content p{
+    color:#666;
+    margin-bottom:40px;
+}
+
+/* CARDS */
+
+.stats-grid{
+    display:flex;
+    gap:25px;
+    margin-top:30px;
+}
+
+.stat-card{
+    width:240px;
+    height:150px;
+
+    background:white;
+    border:1px solid #d9d9d9;
+    border-radius:18px;
+
+    padding:25px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.stat-card h2{
+    font-size:42px;
+    margin:0 0 10px 0;
+}
+
+.stat-card p{
+    margin:0;
+}

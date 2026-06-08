@@ -1,0 +1,66 @@
+/* ========== PAGE À PROPOS ========== */
+
+.about-page {
+  background: #fff;
+  padding: 3rem 2rem 5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* -- Titre de page -- */
+.page-title {
+  margin-bottom: 2.5rem;
+}
+
+.page-title h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 0.75rem;
+}
+
+.page-title p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.7;
+  max-width: 700px;
+}
+
+/* -- Section about -- */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.about-text {
+  padding: 2rem;
+  background: #f8f9ff;
+  border-radius: 14px;
+  border: 1px solid #e0e4f0;
+}
+
+.about-text h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a3a8c;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* -- Responsive -- */
+@media (max-width: 600px) {
+  .about-page { padding: 2rem 1rem 3rem; }
+  .page-title h1 { font-size: 1.5rem; }
+  .about-text { padding: 1.25rem; }
+}

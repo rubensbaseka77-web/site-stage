@@ -1,0 +1,126 @@
+.po-page{
+    width:1180px;
+    margin:0 auto;
+    padding:60px 0 90px;
+}
+
+.po-back{
+    display:inline-block;
+    margin-bottom:25px;
+    color:#111;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.po-hero{
+    border:1px solid #111;
+    border-radius:28px;
+    padding:45px;
+    margin-bottom:35px;
+    background:white;
+}
+
+.po-badge{
+    display:inline-block;
+    background:#dceaff;
+    color:#2451ff;
+    padding:8px 14px;
+    border-radius:20px;
+    font-weight:700;
+    font-size:13px;
+}
+
+.po-hero h1{
+    font-size:48px;
+    margin:20px 0 10px;
+}
+
+.po-hero p{
+    color:#555;
+    font-size:17px;
+}
+
+.po-layout{
+    display:grid;
+    grid-template-columns:1fr 330px;
+    gap:35px;
+}
+
+.po-card,
+.po-summary{
+    background:white;
+    border:1px solid #111;
+    border-radius:18px;
+    padding:30px;
+}
+
+.po-card h2,
+.po-summary h3{
+    margin:0 0 25px;
+    font-size:24px;
+}
+
+.po-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.po-card label{
+    display:block;
+    margin:18px 0 8px;
+    font-weight:700;
+}
+
+.po-card input,
+.po-card textarea{
+    width:100%;
+    border:1px solid #ccc;
+    border-radius:10px;
+    padding:14px;
+    box-sizing:border-box;
+}
+
+.po-card textarea{
+    height:140px;
+    resize:none;
+}
+
+.po-upload{
+    border:1px dashed #111;
+    border-radius:12px;
+    padding:22px;
+    background:#fafafa;
+}
+
+.po-card button{
+    margin-top:25px;
+    width:100%;
+    background:#2451ff;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.po-summary p{
+    color:#555;
+    line-height:1.6;
+    margin-bottom:22px;
+}
+
+.po-summary strong{
+    color:#111;
+}
+
+.po-message{
+    background:#e6f7e6;
+    border:1px solid #b7e3b7;
+    color:#136d13;
+    border-radius:10px;
+    padding:14px;
+    margin-bottom:20px;
+    font-weight:700;
+}

@@ -1,0 +1,88 @@
+.me-page{
+    width:1180px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:55px;
+    padding:55px 0 90px;
+}
+
+.me-sidebar{
+    border-right:1px solid #111;
+    padding:45px 25px;
+    min-height:650px;
+}
+
+.me-sidebar h2{
+    font-size:24px;
+    margin:0 0 10px;
+}
+
+.me-sidebar p{
+    font-size:13px;
+    margin:0 0 35px;
+}
+
+.me-sidebar a{
+    display:block;
+    padding:15px 18px;
+    margin-bottom:24px;
+    text-decoration:none;
+    color:#111;
+    font-weight:700;
+    border-radius:8px;
+}
+
+.me-sidebar a.active{
+    background:#dceaff;
+    color:#2451ff;
+}
+
+.me-content h1{
+    font-size:44px;
+    margin:0 0 8px;
+}
+
+.me-subtitle{
+    color:#666;
+    margin-bottom:35px;
+}
+
+.me-card{
+    width:520px;
+    border:1px solid #111;
+    border-radius:16px;
+    padding:35px;
+    background:white;
+}
+
+.me-card h2{
+    font-size:30px;
+    margin:0 0 30px;
+}
+
+.me-info{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid #ddd;
+    padding:16px 0;
+}
+
+.me-info span{
+    color:#555;
+}
+
+.me-info strong{
+    color:#111;
+}
+
+.me-btn{
+    display:inline-block;
+    margin-top:30px;
+    background:#2451ff;
+    color:white;
+    padding:12px 18px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:700;
+}

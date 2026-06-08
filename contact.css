@@ -1,0 +1,268 @@
+/* ============================================================
+   contact.css — Page Contactez-nous
+   Université Gustave Eiffel
+   ============================================================ */
+
+/* ---------- Variables ---------- */
+:root {
+  --bleu-ugef:    #1A2E6C;
+  --bleu-ciel:    #3A5BF0;
+  --bleu-leger:   #EEF1FB;
+  --texte-fonce:  #0F1B3C;
+  --texte-moyen:  #4A5568;
+  --texte-clair:  #718096;
+  --bordure:      #D9DFF0;
+  --blanc:        #FFFFFF;
+  --fond-page:    #F5F7FC;
+  --vert-succes:  #059669;
+  --rayon:        12px;
+  --ombre-card:   0 2px 16px rgba(26, 46, 108, 0.08);
+  --font-titre:   'Sora', 'Segoe UI', sans-serif;
+  --font-corps:   'DM Sans', 'Segoe UI', sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-corps);
+  background: var(--fond-page);
+  color: var(--texte-fonce);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Page wrapper ---------- */
+.contact-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+/* ---------- Titre ---------- */
+.page-title {
+  margin-bottom: 40px;
+}
+
+.page-title h1 {
+  font-family: var(--font-titre);
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 700;
+  color: var(--bleu-ugef);
+  letter-spacing: -0.4px;
+  line-height: 1.15;
+  margin-bottom: 8px;
+}
+
+.page-title p {
+  font-size: 0.95rem;
+  color: var(--texte-moyen);
+}
+
+/* ---------- Layout 2 colonnes ---------- */
+.contact-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+/* ---------- Colonne infos ---------- */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.contact-info > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* Icône simulée via pseudo-élément */
+.contact-info > div::before {
+  content: "";
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--bleu-leger);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 18px;
+}
+
+/* Email */
+.contact-info > div:nth-child(1)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%231A2E6C' stroke-width='1.8'%3E%3Crect x='2' y='4' width='20' height='16' rx='2'/%3E%3Cpath d='M2 7l10 7 10-7'/%3E%3C/svg%3E");
+  background-color: var(--bleu-leger);
+}
+
+/* Téléphone */
+.contact-info > div:nth-child(2)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%231A2E6C' stroke-width='1.8'%3E%3Cpath d='M6.6 10.8a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.5 11.5 0 003.6.6 1 1 0 011 1V17a1 1 0 01-1 1A17 17 0 013 5a1 1 0 011-1h3.5a1 1 0 011 1 11.5 11.5 0 00.6 3.6 1 1 0 01-.25 1L6.6 10.8z'/%3E%3C/svg%3E");
+  background-color: var(--bleu-leger);
+}
+
+/* Adresse */
+.contact-info > div:nth-child(3)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%231A2E6C' stroke-width='1.8'%3E%3Cpath d='M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z'/%3E%3Ccircle cx='12' cy='9' r='2.5'/%3E%3C/svg%3E");
+  background-color: var(--bleu-leger);
+}
+
+.contact-info h3 {
+  font-family: var(--font-titre);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--texte-fonce);
+  margin-bottom: 4px;
+}
+
+.contact-info p {
+  font-size: 0.875rem;
+  color: var(--texte-moyen);
+  line-height: 1.5;
+}
+
+/* ---------- Formulaire ---------- */
+.contact-form {
+  background: var(--blanc);
+  border: 1px solid var(--bordure);
+  border-radius: var(--rayon);
+  padding: 32px 36px;
+  box-shadow: var(--ombre-card);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Message de succès */
+.success-message {
+  padding: 12px 16px;
+  background: #ECFDF5;
+  border: 1px solid #6EE7B7;
+  border-radius: 8px;
+  color: var(--vert-succes);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Groupe champ */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--texte-fonce);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1.5px solid var(--bordure);
+  border-radius: 8px;
+  font-family: var(--font-corps);
+  font-size: 0.92rem;
+  color: var(--texte-fonce);
+  background: var(--fond-page);
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: var(--texte-clair);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--bleu-ciel);
+  box-shadow: 0 0 0 3px rgba(58, 91, 240, 0.1);
+  background: var(--blanc);
+}
+
+/* Select arrow custom */
+.form-group select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%234A5568' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+  cursor: pointer;
+}
+
+/* Textarea */
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+/* Bouton Envoyer */
+.contact-form button[type="submit"] {
+  align-self: flex-end;
+  padding: 11px 32px;
+  background: var(--bleu-ciel);
+  color: var(--blanc);
+  border: none;
+  border-radius: 8px;
+  font-family: var(--font-corps);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(58, 91, 240, 0.25);
+}
+
+.contact-form button[type="submit"]:hover {
+  background: var(--bleu-ugef);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(26, 46, 108, 0.3);
+}
+
+.contact-form button[type="submit"]:active {
+  transform: translateY(0);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .contact-info > div {
+    flex: 1 1 200px;
+  }
+}
+
+@media (max-width: 520px) {
+  .contact-page {
+    padding: 28px 16px 60px;
+  }
+
+  .contact-form {
+    padding: 22px 18px;
+  }
+
+  .contact-form button[type="submit"] {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,174 @@
+.cand-page{
+    width:1180px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:55px;
+    padding:55px 0 90px;
+}
+
+.cand-sidebar{
+    border-right:1px solid #111;
+    padding:45px 25px;
+    min-height:650px;
+}
+
+.cand-sidebar h2{
+    font-size:24px;
+    margin:0 0 10px;
+}
+
+.cand-sidebar p{
+    font-size:13px;
+    margin:0 0 35px;
+}
+
+.cand-sidebar a{
+    display:block;
+    padding:15px 18px;
+    margin-bottom:24px;
+    text-decoration:none;
+    color:#111;
+    font-weight:700;
+    border-radius:8px;
+}
+
+.cand-sidebar a.active{
+    background:#dceaff;
+    color:#2451ff;
+}
+
+.cand-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:30px;
+}
+
+.cand-top h1{
+    font-size:42px;
+    margin:0 0 8px;
+}
+
+.cand-top p{
+    margin:0;
+    color:#555;
+}
+
+.cand-top select{
+    width:220px;
+    padding:15px;
+    border:1px solid #111;
+    border-radius:12px;
+    background:white;
+}
+
+.cand-stats{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:28px 80px;
+    margin-bottom:45px;
+}
+
+.cand-stat{
+    background:#fff;
+    border:1px solid #dcdcdc;
+    border-radius:14px;
+    padding:25px;
+    min-height:120px; /* au lieu de 180-200 */
+}
+
+.cand-stat h2{
+    font-size:30px;
+    margin:0 0 18px;
+}
+
+.cand-stat p{
+    font-weight:700;
+    margin:0 0 18px;
+}
+
+.cand-stat span{
+    color:#2451ff;
+    font-weight:700;
+    font-size:13px;
+}
+
+.blue,
+.green,
+.orange,
+.purple{
+    background:#ffffff;
+    border:1px solid #d9d9d9;
+}
+
+.cand-labels{
+    display:grid;
+    grid-template-columns:2fr 2fr 1fr 1fr 1fr;
+    padding:0 20px 15px;
+    font-size:13px;
+    color:#333;
+}
+
+.cand-row{
+    display:grid;
+    grid-template-columns:2fr 2fr 1fr 1fr 1fr;
+    align-items:center;
+    gap:15px;
+    background:#f6f7fa;
+    border:1px solid #111;
+    border-radius:14px;
+    padding:18px 20px;
+    margin-bottom:10px;
+}
+
+.cand-user strong,
+.cand-offre strong{
+    display:block;
+    font-size:14px;
+}
+
+.cand-user small{
+    color:#666;
+    font-size:12px;
+}
+
+.badge{
+    background:#dceaff;
+    color:#2451ff;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:700;
+}
+
+.cv-btn{
+    background:white;
+    color:#2451ff;
+    text-decoration:none;
+    padding:9px 14px;
+    border-radius:8px;
+    font-weight:700;
+    font-size:13px;
+}
+.cand-stat h2,
+.cand-stat p,
+.cand-stat h3,
+.cand-stat strong {
+    color: #111 !important;
+}
+
+.cand-stat .blue,
+.cand-stat .green,
+.cand-stat .orange,
+.cand-stat .purple {
+    color: #111 !important;
+}
+
+.empty-state{
+    text-align:center;
+    padding:60px 20px;
+}
+.candidatures-filter{
+    margin-top:20px;
+}

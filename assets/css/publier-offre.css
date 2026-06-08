@@ -1,0 +1,148 @@
+.publication-page{
+    width:920px;
+    margin:0 auto;
+    padding:35px 0 70px;
+}
+
+.back-link{
+    font-size:24px;
+    text-decoration:none;
+    color:#111;
+}
+
+.publication-header{
+    margin:25px 0 50px;
+}
+
+.publication-header h1{
+    font-size:34px;
+    margin:0 0 10px;
+}
+
+.publication-grid{
+    display:grid;
+    grid-template-columns:300px 500px;
+    gap:55px;
+    align-items:start;
+}
+
+.step{
+    padding:15px 18px;
+    margin-bottom:22px;
+    border-radius:8px;
+    font-weight:700;
+    font-size:17px;
+}
+
+.step.active{
+    background:#dceaff;
+    color:#6b91ff;
+}
+
+.publish-card{
+    background:white;
+    border:2px solid #111;
+    border-radius:24px;
+    padding:35px;
+    width:520px;
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,.08);
+}
+
+.publish-card input,
+.publish-card textarea,
+.publish-card select{
+    border:1px solid #d9d9d9;
+    background:white;
+}
+.publish-card button{
+    background:#2846d9;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:14px 28px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.publish-card button:hover{
+    background:#1b2f86;
+    transform:translateY(-2px);
+}
+
+.publish-card h2{
+    margin-top:0;
+}
+
+.enterprise-form label{
+    display:block;
+    margin:18px 0 8px;
+    font-weight:700;
+}
+
+.enterprise-form input,
+.enterprise-form textarea{
+    width:100%;
+    box-sizing:border-box;
+    border:0;
+    border-radius:8px;
+    padding:12px;
+}
+
+.enterprise-form textarea{
+    height:130px;
+    resize:none;
+}
+
+.enterprise-form button{
+    margin-top:22px;
+    float:right;
+    width:160px;
+    height:46px;
+    border:0;
+    border-radius:8px;
+    background:#263fab;
+    color:white;
+    font-weight:700;
+}
+
+.required-note{
+    margin-top:120px;
+    font-size:13px;
+}
+
+.required-note span{
+    color:red;
+    font-size:22px;
+}
+.publication-page,
+.publication-page *{
+    box-sizing:border-box;
+}
+
+.publication-page{
+    all:initial;
+    font-family:inherit;
+    display:block;
+    width:920px;
+    margin:35px auto 70px;
+}
+
+.publication-page *{
+    font-family:inherit;
+}
+.publish-card input,
+.publish-card textarea,
+.publish-card select{
+    width:100%;
+    padding:12px 15px;
+    margin-top:8px;
+    margin-bottom:20px;
+
+    background:white;
+    border:1px solid #d9d9d9;
+    border-radius:8px;
+
+    box-sizing:border-box;
+}

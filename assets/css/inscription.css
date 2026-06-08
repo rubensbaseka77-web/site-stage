@@ -1,0 +1,121 @@
+.in-page{
+    min-height:650px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:70px 0;
+}
+
+.in-card{
+    width:620px;
+    background:white;
+    border:1px solid #111;
+    border-radius:22px;
+    padding:42px;
+}
+
+.in-badge{
+    display:inline-block;
+    background:#dceaff;
+    color:#2451ff;
+    padding:8px 14px;
+    border-radius:20px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+.in-card h1{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.in-card p{
+    color:#555;
+    margin-bottom:25px;
+}
+
+.in-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.in-card label{
+    display:block;
+    font-weight:700;
+    margin:18px 0 8px;
+}
+
+.in-card input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+.in-check{
+    display:flex !important;
+    align-items:flex-start;
+    gap:10px;
+    font-weight:400 !important;
+    font-size:14px;
+    color:#555;
+}
+
+.in-check input{
+    width:auto;
+    margin-top:3px;
+}
+
+.in-card button{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    background:#2451ff;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.in-link,
+.in-company{
+    text-align:center;
+    margin-top:22px;
+}
+
+.in-link a,
+.in-company a{
+    color:#2451ff;
+    font-weight:700;
+}
+
+.in-separator{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:30px 0 20px;
+}
+
+.in-separator span{
+    flex:1;
+    height:1px;
+    background:#ddd;
+}
+
+.in-separator p{
+    margin:0;
+    color:#888;
+    font-size:14px;
+}
+
+.in-error{
+    background:#ffe5e5;
+    color:#b00020;
+    border:1px solid #ffb5b5;
+    border-radius:10px;
+    padding:12px;
+    margin-bottom:20px;
+    font-weight:700;
+}

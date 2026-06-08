@@ -1,0 +1,85 @@
+.pa-page{
+    width:1180px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:55px;
+    padding:55px 0 90px;
+}
+
+.pa-sidebar{
+    border-right:1px solid #111;
+    padding:45px 25px;
+    min-height:650px;
+}
+
+.pa-sidebar h2{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.pa-sidebar p{
+    font-size:13px;
+    margin-bottom:35px;
+}
+
+.pa-sidebar a{
+    display:block;
+    text-decoration:none;
+    color:#111;
+    font-weight:700;
+    padding:15px 18px;
+    border-radius:8px;
+    margin-bottom:24px;
+}
+
+.pa-sidebar a.active{
+    background:#dceaff;
+    color:#2451ff;
+}
+
+.pa-content h1{
+    font-size:44px;
+    margin:0 0 8px;
+}
+
+.pa-subtitle{
+    color:#555;
+    margin-bottom:35px;
+}
+
+.pa-card{
+    width:600px;
+    background:white;
+    border:1px solid #111;
+    border-radius:16px;
+    padding:35px;
+}
+
+.pa-form{
+    display:flex;
+    flex-direction:column;
+}
+
+.pa-form label{
+    font-weight:700;
+    margin-bottom:8px;
+    margin-top:18px;
+}
+
+.pa-form input{
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.pa-btn{
+    margin-top:30px;
+    background:#2451ff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding:14px;
+    cursor:pointer;
+    font-weight:700;
+}

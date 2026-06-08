@@ -1,0 +1,62 @@
+/* ============================================================
+   offre-detail-marketing.css — Thème Marketing
+   Couleur d'accent : violet-rose (#7C3AED → #EC4899)
+   ============================================================ */
+
+:root {
+  --accent:        #7C3AED;
+  --accent-2:      #EC4899;
+  --accent-leger:  #F5F0FF;
+  --badge-color:   #7C3AED;
+}
+
+/* Badge */
+.detail-badge {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+
+/* Bordure colorée sur les cards */
+.detail-card {
+  border-top: 3px solid var(--accent);
+}
+
+.detail-card h2 {
+  color: var(--accent);
+}
+
+.detail-card ul li::before {
+  color: var(--accent-2);
+}
+
+/* Logo entreprise */
+.company-logo {
+  background: var(--accent-leger);
+}
+
+.company-logo span {
+  color: var(--accent);
+}
+
+/* Tags offre : couleur d'accroche */
+.detail-tags span:first-child {
+  background: var(--accent-leger);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Bouton postuler */
+.btn-apply {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 4px 14px rgba(124, 58, 237, 0.35);
+}
+
+.btn-apply:hover {
+  background: linear-gradient(135deg, #6D28D9, #DB2777);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.45);
+}
+
+/* Sidebar card accent */
+.sidebar-card h3 {
+  color: var(--accent);
+  border-color: var(--accent-leger);
+}

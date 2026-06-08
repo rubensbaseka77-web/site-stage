@@ -1,0 +1,88 @@
+.pc-page{
+    width:1100px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:45px;
+    padding:55px 0 90px;
+}
+
+.pc-sidebar{
+    border-right:1px solid #111;
+    padding:35px 25px;
+    min-height:650px;
+}
+
+.pc-sidebar h2{
+    font-size:24px;
+    margin:0 0 10px;
+}
+
+.pc-sidebar p{
+    font-size:13px;
+    margin:0 0 35px;
+}
+
+.pc-sidebar a{
+    display:block;
+    text-decoration:none;
+    color:#111;
+    font-weight:700;
+    padding:15px 18px;
+    border-radius:8px;
+    margin-bottom:18px;
+}
+
+.pc-sidebar a.active{
+    background:#dceaff;
+    color:#2451ff;
+}
+
+.pc-content h1{
+    font-size:38px;
+    margin:0 0 8px;
+}
+
+.pc-subtitle{
+    color:#555;
+    margin-bottom:35px;
+}
+
+.pc-card{
+    width:520px;
+    background:white;
+    border:1px solid #111;
+    border-radius:16px;
+    padding:35px;
+}
+
+.pc-card h2{
+    font-size:26px;
+    margin:0 0 30px;
+}
+
+.pc-info{
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid #ddd;
+    padding:16px 0;
+}
+
+.pc-info span{
+    color:#555;
+}
+
+.pc-info strong{
+    color:#111;
+}
+
+.pc-btn{
+    display:inline-block;
+    margin-top:30px;
+    background:#2451ff;
+    color:white;
+    padding:12px 18px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:700;
+}

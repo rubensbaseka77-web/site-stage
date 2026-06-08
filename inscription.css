@@ -1,0 +1,155 @@
+/* ========== PAGE INSCRIPTION ========== */
+ 
+.auth-page {
+  background: #fff;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+ 
+.auth-container {
+  width: 100%;
+  max-width: 580px;
+}
+ 
+.auth-left h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 0.3rem;
+}
+ 
+.auth-left > p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 2.5rem;
+}
+ 
+/* -- Message -- */
+.auth-message {
+  background: #fdecea;
+  color: #c0392b;
+  border: 1px solid #f5c6c2;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  font-size: 13.5px;
+  margin-bottom: 1.5rem;
+}
+ 
+.auth-message.success {
+  background: #e8f8f0;
+  color: #0a6640;
+  border-color: #a8e6c5;
+}
+ 
+/* -- Formulaire -- */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-bottom: 1.8rem;
+}
+ 
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+ 
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+ 
+.form-group input {
+  padding: 0.85rem 1rem;
+  border: 1.5px solid #d0d5e8;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+ 
+.form-group input:focus {
+  border-color: #1a3a8c;
+  box-shadow: 0 0 0 3px rgba(26, 58, 140, 0.1);
+}
+ 
+/* -- Checkbox CGU -- */
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 13.5px;
+  color: #444;
+}
+ 
+.form-check input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #1a3a8c;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+ 
+.form-check a {
+  color: #1a3a8c;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+ 
+.form-check a:hover { color: #122a6e; }
+ 
+/* -- Bouton submit -- */
+.auth-form button[type="submit"] {
+  background: #1a3a8c;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.2s, transform 0.15s;
+}
+ 
+.auth-form button[type="submit"]:hover {
+  background: #122a6e;
+  transform: translateY(-1px);
+}
+ 
+.auth-form button[type="submit"]:active {
+  transform: translateY(0);
+}
+ 
+/* -- Lien connexion -- */
+.auth-link {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 0.5rem;
+}
+ 
+.auth-link a {
+  color: #1a3a8c;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+ 
+.auth-link a:hover { color: #122a6e; }
+ 
+/* -- Responsive -- */
+@media (max-width: 600px) {
+  .auth-page { padding: 2rem 1rem; }
+  .auth-left h1 { font-size: 1.6rem; }
+}
+ 

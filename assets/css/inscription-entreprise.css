@@ -1,0 +1,112 @@
+.ie-page{
+    min-height:700px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:80px 0;
+}
+
+.ie-card{
+    width:800px;
+    background:white;
+    border:1px solid #ddd;
+    border-radius:24px;
+    padding:45px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.06);
+}
+
+.ie-header{
+    margin-bottom:35px;
+}
+
+.ie-badge{
+    display:inline-block;
+    padding:8px 14px;
+    background:#dceaff;
+    color:#2451ff;
+    border-radius:20px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.ie-header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.ie-header p{
+    color:#666;
+}
+
+.ie-row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+
+.ie-group{
+    margin-bottom:22px;
+}
+
+.ie-group label{
+    display:block;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.ie-group input{
+    width:100%;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:12px;
+}
+
+.ie-btn{
+    width:100%;
+    height:55px;
+    border:none;
+    border-radius:12px;
+    background:#2451ff;
+    color:white;
+    font-size:16px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.ie-btn:hover{
+    background:#163fe0;
+}
+
+.ie-login{
+    text-align:center;
+    margin-top:25px;
+}
+
+.ie-login a{
+    color:#2451ff;
+    font-weight:700;
+}
+.ie-btn{
+    width:100%;
+    padding:16px;
+    border:none;
+    border-radius:14px;
+    background:#2f54eb;
+    color:white;
+    font-weight:700;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+.ie-btn:hover{
+    background:#1d39c4;
+}
+
+.ie-error{
+    background:#ffe5e5;
+    color:#c62828;
+    border:1px solid #ffb3b3;
+    padding:12px;
+    border-radius:10px;
+    margin-bottom:20px;
+}

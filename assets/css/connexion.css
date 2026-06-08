@@ -1,0 +1,100 @@
+.co-page{
+    min-height:520px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:70px 0;
+}
+
+.co-card{
+    width:480px;
+    background:white;
+    border:1px solid #111;
+    border-radius:22px;
+    padding:40px;
+}
+
+.co-card h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.co-card p{
+    color:#555;
+    margin-bottom:25px;
+}
+
+.co-card label{
+    display:block;
+    font-weight:700;
+    margin:18px 0 8px;
+}
+
+.co-card input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+.co-card button{
+    width:100%;
+    margin-top:28px;
+    padding:15px;
+    background:#2451ff;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.co-link,
+.co-company{
+    text-align:center;
+    margin-top:22px;
+}
+
+.co-link a,
+.co-company a{
+    color:#2451ff;
+    font-weight:700;
+}
+
+.co-separator{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:30px 0 20px;
+}
+
+.co-separator span{
+    flex:1;
+    height:1px;
+    background:#ddd;
+}
+
+.co-separator p{
+    margin:0;
+    color:#888;
+    font-size:14px;
+}
+
+.co-error{
+    background:#ffe5e5;
+    color:#b00020;
+    border:1px solid #ffb5b5;
+    border-radius:10px;
+    padding:12px;
+    margin-bottom:20px;
+    font-weight:700;
+}
+.ce-error{
+    background:#ffe5e5;
+    border:1px solid #ffb5b5;
+    color:#b00020;
+    padding:12px;
+    border-radius:10px;
+    margin-bottom:18px;
+    font-weight:700;
+}
